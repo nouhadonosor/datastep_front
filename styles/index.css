@@ -1,0 +1,61 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-header {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 600;
+    font-size: 96;
+}
+
+.main-desc {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 300;
+    font-size: 24;
+    color: gray;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.screen-container {
+    height: 500px;
+    width: 50vw;
+    min-width: 1000px;
+    justify-content: center;
+    display: flex;
+}
+
+.screen-outer {
+    background-color: black;
+    height: max-content;
+    width: 70%;
+    border-radius: 30px 30px 0px 0px;
+    border: 30px solid black;
+    border-bottom: 0px solid;
+}
+
+.screen-inner {
+    background-color: white;
+    border-radius: 5px 5px 0px 0px;
+    height: max-content;
+    width: 100%;
+}
+
+.screen-image {
+    width: 100%;
+    object-fit: fill;
+    clip: auto;
+}
